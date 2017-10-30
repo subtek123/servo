@@ -24,3 +24,5 @@ opt-level = 3
 #
 #     [patch."https://github.com/servo/<repository>"]
 #     <crate> = { path = "/path/to/local/checkout" }
+jemalloc-sys = {git = "https://github.com/SimonSapin/jemallocator", rev = "bind-all-the-functions"}
+jemallocator = {git = "https://github.com/SimonSapin/jemallocator", rev = "bind-all-the-functions"}
